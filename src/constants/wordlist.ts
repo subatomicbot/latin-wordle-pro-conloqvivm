@@ -85,7 +85,6 @@ export const WORDS = [
   'ducit',
   'cantu',
   'cunam',
-  'horta',
   'actis',
   'bassi',
   'navos',

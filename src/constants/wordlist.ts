@@ -119,7 +119,6 @@ export const WORDS = [
   'nebat',
   'turba',
   'poste',
-  'numas',
   'sexto',
   'toxeu',
   'angio',

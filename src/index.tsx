@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals'
 import ReactGA from 'react-ga'
 import { ThemeProvider } from './ThemeProvider'
 
-ReactGA.initialize('UA-215919527-1') // intialize Google Analytics to track site usage
+ReactGA.initialize('') // intialize Google Analytics to track site usage
 ReactGA.pageview(window.location.pathname) // track page view
 
 ReactDOM.render(

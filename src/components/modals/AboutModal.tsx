@@ -9,14 +9,14 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="About" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        This is an implementation of Wordle in Latin -{' '}
+        This is a branch of Wordle in Latin that was customized to use Lewis for source words. For the original,{' '}
         <a
           href="https://github.com/theotarr/latin-wordle"
           className="underline font-bold"
           target="_blank"
           rel="noopener noreferrer"
         >
-          check out the code here
+          check out the original code here
         </a>{' '}
         and{' '}
         <a
@@ -29,7 +29,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
         </a>
       </p>
       <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-white mt-6">
-        Support Us
+        Support For the Original Maker
       </h4>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         If you find this useful, please sign up on{' '}
@@ -42,20 +42,6 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
           latindictionary.io
         </a>{' '}
         and share it with your friends!
-      </p>
-      <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-white mt-6">
-        Report a Problem
-      </h4>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        If you find a problem, please contact{' '}
-        <a
-          href="mailto:support@latindictionary.io"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-bold  underline"
-        >
-          us.
-        </a>
       </p>
     </BaseModal>
   )
